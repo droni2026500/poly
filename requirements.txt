@@ -1,4 +1,4 @@
-Django==1.8.3
-Pillow==2.9.0
-django-suit==0.2.14
-django-suit-ckeditor==0.0.2
+Django==2.0
+Pillow
+django-suit
+django-suit-ckeditor

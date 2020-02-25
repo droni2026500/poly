@@ -14,7 +14,7 @@ SECRET_KEY = 'qsy=_hd0p6$d$wx_uqu(hdc%-0%hn%9=-7q+*he9gj*v=&$*xy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.88.13','127.0.0.1','172.16.48.142','172.20.10.5']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -70,7 +70,6 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'polyclinic',
         'HOST':'mongodb://dron:55555@dron2026-shard-00-00-x59g6.mongodb.net:27017,dron2026-shard-00-01-x59g6.mongodb.net:27017,dron2026-shard-00-02-x59g6.mongodb.net:27017/test?ssl=true&replicaSet=dron2026-shard-0&authSource=admin&retryWrites=true&w=majority',
-        #'PORT':'27017',
     }
 }
 
