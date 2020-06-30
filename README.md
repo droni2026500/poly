@@ -1,4 +1,5 @@
 # poly
+python 3.6.6
 Поликлинника
 -----------------
 pip install -r requiremets.txt
